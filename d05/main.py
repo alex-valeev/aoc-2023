@@ -64,7 +64,6 @@ def part1(seeds: List, maps: Dict[int, List[Range]]) -> int:
     return min(location)
 
 
-# @cache
 def part2(seeds: List, maps: Dict[int, List[Range]]) -> int:
     location = []
 
